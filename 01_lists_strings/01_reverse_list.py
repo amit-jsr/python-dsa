@@ -11,17 +11,17 @@ Output: [4, 3, 2, 1]
 # Write your solution below
 
 # 1. Built-in reversed()
-def reverse_list(lst):
+def reverse_list_builtin(lst):
     return list(reversed(lst))
 
 
 # 2. Slicing
-def reverse_list(lst):
+def reverse_list_slicing(lst):
     lst = lst[::-1]
     return lst
 
 # 3. Brute force (loop backwards)
-def reverse_list(lst):
+def reverse_list_loop(lst):
     n = len(lst)-1
     out= []
     for i in range(n,-1,-1):
@@ -39,4 +39,8 @@ def reverse_list(lst):
     return lst
 
 if __name__ == "__main__":
-    print(reverse_list([1, 2, 3, 4]))
+    lst = [1, 2, 3, 4]
+    print(reverse_list_builtin(lst))
+    print(reverse_list_slicing(lst))
+    print(reverse_list_loop(lst))
+    print(reverse_list(lst))
