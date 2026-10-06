@@ -1,6 +1,6 @@
 """Problem 7
 
-Find the missing number in a list of 1 to n.
+Find the missing number in a list containing the numbers 1 to n.
 
 Example:
 Input:  [1, 2, 4, 5], n = 5
