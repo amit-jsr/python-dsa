@@ -16,7 +16,7 @@ def second_largest_builtin(nums):
     nums = sorted(nums, reverse=True)
     return nums[1]
     
-# O(1) extra space
+# O(1) Extra Space
 def second_largest(nums):
     min_1 = min_2 = nums[0]
     for num in nums:
