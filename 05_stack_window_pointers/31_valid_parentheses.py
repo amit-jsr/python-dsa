@@ -1,6 +1,6 @@
 """Problem 31
 
-Valid parentheses: `"({[]})"` is valid, `"(]"` is not.
+Check for valid parentheses: `"({[]})"` is valid, `"(]"` is not.
 
 Example:
 Input:  "({[]})"

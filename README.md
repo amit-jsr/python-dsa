@@ -6,7 +6,7 @@ Each problem has a matching starter file in its topic folder, named by problem n
 
 Folder: `01_lists_strings/`
 
-1. Reverse a list without using `reverse()` or slicing.
+1. Reverse a list without using `reverse()`.
 
     Example:
     - Input: `[1, 2, 3, 4]` → Output: `[4, 3, 2, 1]`
@@ -37,7 +37,7 @@ Folder: `01_lists_strings/`
     Example:
     - Input: `"I love AI"` → Output: `"AI love I"`
 
-7. Find the missing number in a list of 1 to n.
+7. Find the missing number in a list containing the numbers 1 to n.
 
     Example:
     - Input: `[1, 2, 4, 5], n = 5` → Output: `3`
@@ -83,12 +83,12 @@ Folder: `02_dict_counter/`
     Example:
     - Input: `nums = [2, 7, 11, 15], target = 9` → Output: `[0, 1]`
 
-15. Group anagrams: `["eat","tea","tan","ate","nat"]`.
+15. Group the anagrams in this list: `["eat","tea","tan","ate","nat"]`.
 
     Example:
     - Input: `["eat", "tea", "tan", "ate", "nat"]` → Output: `[["eat", "tea", "ate"], ["tan", "nat"]]`
 
-16. Top K frequent elements in a list.
+16. Find the top K frequent elements in a list.
 
     Example:
     - Input: `[1, 1, 1, 2, 2, 3], k = 2` → Output: `[1, 2]`
@@ -141,13 +141,13 @@ Folder: `03_sorting_lambda/`
 
 Folder: `04_recursion/`
 
-25. Factorial, recursive and iterative.
+25. Compute a factorial, both recursively and iteratively.
 
     Example:
     - Input: `5` → Output: `120`
     - Input: `0` → Output: `1`
 
-26. Fibonacci, plain recursion then with `lru_cache`, and explain the time difference.
+26. Compute Fibonacci with plain recursion, then with `lru_cache`, and explain the time difference.
 
     Example:
     - Input: `n = 10` → Output: `55`
@@ -157,7 +157,7 @@ Folder: `04_recursion/`
     Example:
     - Input: `[1, [2, [3, [4]]]]` → Output: `[1, 2, 3, 4]`
 
-28. Sum of digits of a number using recursion.
+28. Find the sum of the digits of a number using recursion.
 
     Example:
     - Input: `493` → Output: `16`
@@ -176,23 +176,23 @@ Folder: `04_recursion/`
 
 Folder: `05_stack_window_pointers/`
 
-31. Valid parentheses: `"({[]})"` is valid, `"(]"` is not.
+31. Check for valid parentheses: `"({[]})"` is valid, `"(]"` is not.
 
     Example:
     - Input: `"({[]})"` → Output: `True`
     - Input: `"(]"` → Output: `False`
 
-32. Longest substring without repeating characters.
+32. Find the longest substring without repeating characters.
 
     Example:
     - Input: `"abcabcbb"` → Output: 3  (substring "abc")
 
-33. Maximum sum subarray of size k.
+33. Find the maximum sum of a subarray of size k.
 
     Example:
     - Input: `[2, 1, 5, 1, 3, 2], k = 3` → Output: `9`
 
-34. Check if a list is sorted, then find a pair summing to a target in a sorted list using two pointers.
+34. Check if a list is sorted, then find a pair that sums to a target in a sorted list using two pointers.
 
     Example:
     - Input: `[1, 2, 5, 9] (is sorted?)` → Output: `True`
@@ -213,7 +213,7 @@ Folder: `06_decorators_practical/`
     - Input: `@retry(times=3) on a function that fails twice, then succeeds` → Output: returns the result on the 3rd attempt
     - Input: `same function failing every time` → Output: raises the last exception after 3 attempts
 
-37. Write a decorator that caches results of a function (your own simple memoize).
+37. Write a decorator that caches the results of a function (your own simple memoize).
 
     Example:
     - Input: `calling a memoized slow_square(4) twice` → Output: 1st call computes 16, 2nd call returns 16 from the cache

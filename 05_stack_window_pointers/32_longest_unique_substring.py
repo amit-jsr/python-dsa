@@ -1,6 +1,6 @@
 """Problem 32
 
-Longest substring without repeating characters.
+Find the longest substring without repeating characters.
 
 Example:
 Input:  "abcabcbb"

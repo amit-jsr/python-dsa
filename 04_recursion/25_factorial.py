@@ -1,6 +1,6 @@
 """Problem 25
 
-Factorial, recursive and iterative.
+Compute a factorial, both recursively and iteratively.
 
 Example:
 Input:  5

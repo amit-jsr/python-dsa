@@ -1,6 +1,6 @@
 """Problem 16
 
-Top K frequent elements in a list.
+Find the top K frequent elements in a list.
 
 Example:
 Input:  [1, 1, 1, 2, 2, 3], k = 2

@@ -1,7 +1,6 @@
 """Problem 26
 
-Fibonacci, plain recursion then with `lru_cache`, and explain the time
-difference.
+Compute Fibonacci with plain recursion, then with `lru_cache`, and explain the time difference.
 
 Example:
 Input:  n = 10

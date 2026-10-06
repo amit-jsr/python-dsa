@@ -1,6 +1,6 @@
 """Problem 28
 
-Sum of digits of a number using recursion.
+Find the sum of the digits of a number using recursion.
 
 Example:
 Input:  493

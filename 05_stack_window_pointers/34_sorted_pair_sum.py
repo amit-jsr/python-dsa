@@ -1,6 +1,6 @@
 """Problem 34
 
-Check if a list is sorted, then find a pair summing to a target in a sorted
+Check if a list is sorted, then find a pair that sums to a target in a sorted
 list using two pointers.
 
 Example:

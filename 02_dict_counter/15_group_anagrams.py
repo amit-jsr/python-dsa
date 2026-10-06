@@ -1,6 +1,6 @@
 """Problem 15
 
-Group anagrams: `["eat","tea","tan","ate","nat"]`.
+Group the anagrams in this list: `["eat","tea","tan","ate","nat"]`.
 
 Example:
 Input:  ["eat", "tea", "tan", "ate", "nat"]

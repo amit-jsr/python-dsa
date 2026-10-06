@@ -1,6 +1,6 @@
 """Problem 37
 
-Write a decorator that caches results of a function (your own simple memoize).
+Write a decorator that caches the results of a function (your own simple memoize).
 
 Example:
 Input:  calling a memoized slow_square(4) twice
